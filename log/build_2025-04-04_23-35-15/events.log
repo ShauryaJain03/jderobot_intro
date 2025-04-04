@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.001569] (intro) JobQueued: {'identifier': 'intro', 'dependencies': OrderedDict()}
+[0.001638] (intro) JobStarted: {'identifier': 'intro'}
+[0.099602] (-) TimerEvent: {}
+[0.200065] (-) TimerEvent: {}
+[0.300650] (-) TimerEvent: {}
+[0.401140] (-) TimerEvent: {}
+[0.501540] (-) TimerEvent: {}
+[0.602014] (-) TimerEvent: {}
+[0.702454] (-) TimerEvent: {}
+[0.802892] (-) TimerEvent: {}
+[0.903321] (-) TimerEvent: {}
+[1.003709] (-) TimerEvent: {}
+[1.104110] (-) TimerEvent: {}
+[1.204560] (-) TimerEvent: {}
+[1.304974] (-) TimerEvent: {}
+[1.337752] (intro) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/intro', 'build', '--build-base', '/home/shaurya/jderobot_intro/build/intro/build', 'install', '--record', '/home/shaurya/jderobot_intro/build/intro/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shaurya/jderobot_intro/src/intro', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shaurya', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shaurya', 'OLDPWD': '/home/shaurya/jderobot_intro/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1711', 'SYSTEMD_EXEC_PID': '2074', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4896', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shaurya', 'JOURNAL_STREAM': '8:16045', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaurya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/shaurya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shaurya-Inspiron-14-5418:@/tmp/.ICE-unix/1847,unix/shaurya-Inspiron-14-5418:/tmp/.ICE-unix/1847', 'INVOCATION_ID': '7f867ff9d1ff41878b653fb523d15c58', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.18OH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:53a37c16-1ae4-4c74-ade5-56fb339a93e4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaurya/jderobot_intro/build/intro', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_IN.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaurya/jderobot_intro/build/intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.405177] (-) TimerEvent: {}
+[1.505631] (-) TimerEvent: {}
+[1.606077] (-) TimerEvent: {}
+[1.706584] (-) TimerEvent: {}
+[1.806982] (-) TimerEvent: {}
+[1.852016] (intro) StdoutLine: {'line': b'running egg_info\n'}
+[1.853144] (intro) StdoutLine: {'line': b'creating ../../build/intro/intro.egg-info\n'}
+[1.853558] (intro) StdoutLine: {'line': b'writing ../../build/intro/intro.egg-info/PKG-INFO\n'}
+[1.854002] (intro) StdoutLine: {'line': b'writing dependency_links to ../../build/intro/intro.egg-info/dependency_links.txt\n'}
+[1.854225] (intro) StdoutLine: {'line': b'writing entry points to ../../build/intro/intro.egg-info/entry_points.txt\n'}
+[1.854578] (intro) StdoutLine: {'line': b'writing requirements to ../../build/intro/intro.egg-info/requires.txt\n'}
+[1.854767] (intro) StdoutLine: {'line': b'writing top-level names to ../../build/intro/intro.egg-info/top_level.txt\n'}
+[1.854878] (intro) StdoutLine: {'line': b"writing manifest file '../../build/intro/intro.egg-info/SOURCES.txt'\n"}
+[1.858215] (intro) StdoutLine: {'line': b"reading manifest file '../../build/intro/intro.egg-info/SOURCES.txt'\n"}
+[1.859406] (intro) StdoutLine: {'line': b"writing manifest file '../../build/intro/intro.egg-info/SOURCES.txt'\n"}
+[1.859608] (intro) StdoutLine: {'line': b'running build\n'}
+[1.859726] (intro) StdoutLine: {'line': b'running build_py\n'}
+[1.860004] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/build/intro/build\n'}
+[1.860978] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/build/intro/build/lib\n'}
+[1.861203] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/build/intro/build/lib/intro\n'}
+[1.861530] (intro) StdoutLine: {'line': b'copying intro/__init__.py -> /home/shaurya/jderobot_intro/build/intro/build/lib/intro\n'}
+[1.861664] (intro) StdoutLine: {'line': b'running install\n'}
+[1.862122] (intro) StdoutLine: {'line': b'running install_lib\n'}
+[1.863482] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro\n'}
+[1.863685] (intro) StdoutLine: {'line': b'copying /home/shaurya/jderobot_intro/build/intro/build/lib/intro/__init__.py -> /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro\n'}
+[1.864415] (intro) StdoutLine: {'line': b'byte-compiling /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro/__init__.py to __init__.cpython-310.pyc\n'}
+[1.864767] (intro) StdoutLine: {'line': b'running install_data\n'}
+[1.864996] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/install/intro/share/ament_index\n'}
+[1.865116] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index\n'}
+[1.865319] (intro) StdoutLine: {'line': b'creating /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index/packages\n'}
+[1.865462] (intro) StdoutLine: {'line': b'copying resource/intro -> /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index/packages\n'}
+[1.865560] (intro) StdoutLine: {'line': b'copying package.xml -> /home/shaurya/jderobot_intro/install/intro/share/intro\n'}
+[1.865657] (intro) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.868953] (intro) StdoutLine: {'line': b'Copying ../../build/intro/intro.egg-info to /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro-0.0.0-py3.10.egg-info\n'}
+[1.870171] (intro) StdoutLine: {'line': b'running install_scripts\n'}
+[1.907179] (-) TimerEvent: {}
+[1.909775] (intro) StdoutLine: {'line': b"writing list of installed files to '/home/shaurya/jderobot_intro/build/intro/install.log'\n"}
+[1.951805] (intro) CommandEnded: {'returncode': 0}
+[1.976251] (intro) JobEnded: {'identifier': 'intro', 'rc': 0}
+[1.977379] (-) EventReactorShutdown: {}

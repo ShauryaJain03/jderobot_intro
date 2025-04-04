@@ -1,0 +1,33 @@
+[1.337s] Invoking command in '/home/shaurya/jderobot_intro/src/intro': PYTHONPATH=/home/shaurya/jderobot_intro/build/intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intro build --build-base /home/shaurya/jderobot_intro/build/intro/build install --record /home/shaurya/jderobot_intro/build/intro/install.log --single-version-externally-managed install_data
+[1.851s] running egg_info
+[1.852s] creating ../../build/intro/intro.egg-info
+[1.852s] writing ../../build/intro/intro.egg-info/PKG-INFO
+[1.853s] writing dependency_links to ../../build/intro/intro.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../build/intro/intro.egg-info/entry_points.txt
+[1.853s] writing requirements to ../../build/intro/intro.egg-info/requires.txt
+[1.853s] writing top-level names to ../../build/intro/intro.egg-info/top_level.txt
+[1.853s] writing manifest file '../../build/intro/intro.egg-info/SOURCES.txt'
+[1.857s] reading manifest file '../../build/intro/intro.egg-info/SOURCES.txt'
+[1.858s] writing manifest file '../../build/intro/intro.egg-info/SOURCES.txt'
+[1.858s] running build
+[1.858s] running build_py
+[1.859s] creating /home/shaurya/jderobot_intro/build/intro/build
+[1.859s] creating /home/shaurya/jderobot_intro/build/intro/build/lib
+[1.860s] creating /home/shaurya/jderobot_intro/build/intro/build/lib/intro
+[1.860s] copying intro/__init__.py -> /home/shaurya/jderobot_intro/build/intro/build/lib/intro
+[1.860s] running install
+[1.861s] running install_lib
+[1.862s] creating /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro
+[1.862s] copying /home/shaurya/jderobot_intro/build/intro/build/lib/intro/__init__.py -> /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro
+[1.863s] byte-compiling /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro/__init__.py to __init__.cpython-310.pyc
+[1.863s] running install_data
+[1.863s] creating /home/shaurya/jderobot_intro/install/intro/share/ament_index
+[1.864s] creating /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index
+[1.864s] creating /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index/packages
+[1.864s] copying resource/intro -> /home/shaurya/jderobot_intro/install/intro/share/ament_index/resource_index/packages
+[1.864s] copying package.xml -> /home/shaurya/jderobot_intro/install/intro/share/intro
+[1.864s] running install_egg_info
+[1.867s] Copying ../../build/intro/intro.egg-info to /home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages/intro-0.0.0-py3.10.egg-info
+[1.869s] running install_scripts
+[1.908s] writing list of installed files to '/home/shaurya/jderobot_intro/build/intro/install.log'
+[1.951s] Invoked command in '/home/shaurya/jderobot_intro/src/intro' returned '0': PYTHONPATH=/home/shaurya/jderobot_intro/build/intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaurya/jderobot_intro/install/intro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intro build --build-base /home/shaurya/jderobot_intro/build/intro/build install --record /home/shaurya/jderobot_intro/build/intro/install.log --single-version-externally-managed install_data

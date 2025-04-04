@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = intro.publisher:main
+subscriber = intro.subscriber:main
+
