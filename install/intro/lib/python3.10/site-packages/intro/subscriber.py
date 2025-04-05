@@ -4,10 +4,13 @@ from std_msgs.msg import String
 
 class HelloSubscriber(Node):
     def __init__(self):
+        #name of the node
         super().__init__("subscriber")
-        self.subscriber=self.create_subscription(String,"hello_topic",self.subscriber_callback,10)
-        
 
+        #create subscription to the topic 'hello_topic' to receive the messages
+        self.subscriber=self.create_subscription(String,"hello_topic",self.subscriber_callback,10) 
+        
+    #callback function to process the incoming messages
     def subscriber_callback(self,msg):
         self.get_logger().info(f'Received Message : "{msg.data}"')
 
