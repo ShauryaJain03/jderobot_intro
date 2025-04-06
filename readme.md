@@ -42,5 +42,6 @@ Source workspace and run the Subscriber Node
    ```
 
 ### Demo
-The accompanying video of the result can be found at - 
+- The accompanying video of the result can be found at -
+- The video for Part 2 of ROS2 Test can be found at - https://youtu.be/fcoYAeJ6mxw
 
